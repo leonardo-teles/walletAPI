@@ -19,8 +19,8 @@ import com.wallet.entity.User;
 
 
 @RunWith(SpringRunner.class)
-@ActiveProfiles("test")
 @SpringBootTest
+@ActiveProfiles("test")
 public class UserRepositoryTest {
 
 	private static final String EMAIL = "email@teste.com";
