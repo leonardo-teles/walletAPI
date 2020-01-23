@@ -8,6 +8,8 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import lombok.Data;
 
 @Data
@@ -18,6 +20,7 @@ public class WalletItemDTO {
 	@NotNull(message = "Insira o Id da carteira")
 	private Long wallet;
 	
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy", locale = "pt-BR", timezone = "Brazil/East")
 	@NotNull(message = "Informe uma data")
 	private Date date;
 	

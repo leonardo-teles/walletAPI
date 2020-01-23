@@ -53,4 +53,8 @@ public class WalletItemServiceImpl implements WalletItemService {
 		return repository.findById(id);
 	}
 
+	@Override
+	public void deleteById(Long id) {
+		repository.deleteById(id);
+	}
 }
