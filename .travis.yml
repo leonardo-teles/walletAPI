@@ -1,6 +1,7 @@
+dist: trusty
 language: java
 jdk:
-  - jdk1.8.0_172
+  - oraclejdk8
 deploy:
   provider: heroku
   api_key:
