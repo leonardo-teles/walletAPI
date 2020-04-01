@@ -12,3 +12,6 @@ Tópicos Abordados:
    - Autenticação via tokens JWT
    - Versionamento de Banco de Dados com Flyway
    - Como configurar e utilizar o Github
+
+   
+   [![Build Status](https://travis-ci.org/github/leonardo-teles/walletAPI.svg?branch=master)](https://travis-ci.org/github/leonardo-teles/walletAPI)
