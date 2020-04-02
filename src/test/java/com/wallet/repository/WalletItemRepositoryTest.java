@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-import javax.validation.ConstraintViolationException;
+import org.springframework.transaction.TransactionSystemException;
 
 import org.junit.After;
 import org.junit.Before;
@@ -85,7 +85,7 @@ public class WalletItemRepositoryTest {
 		
 	}
 	
-	@Test(expected = ConstraintViolationException.class)
+	@Test(expected = TransactionSystemException.class)
 	public void testSaveInvalidWalletItem() {
 		WalletItem wi = new WalletItem(null, null, DATE, null, DESCRIPTION, null);
 		repository.save(wi);
