@@ -14,4 +14,4 @@ Tópicos Abordados:
    - Como configurar e utilizar o Github
 
    
-   [![Build Status](https://travis-ci.org/github/leonardo-teles/walletAPI.svg?branch=master)](https://travis-ci.org/github/leonardo-teles/walletAPI)
+[![Build Status](https://travis-ci.org/leonardo-teles/walletAPI.svg?branch=master)](https://travis-ci.org/leonardo-teles/walletAPI)
